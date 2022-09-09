@@ -7,3 +7,7 @@ These are my projects for freeCodeCamp Responsive Web Design Certification
 3. Build a Technical Documentation Page
 4. Build a Product Landing Page
 5. Build a Personal Portfolio Webpage
+
+## Certificate
+
+https://www.freecodecamp.org/certification/plinaac/responsive-web-design
