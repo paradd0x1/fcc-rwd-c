@@ -1,6 +1,6 @@
 # Projects
 
-My projects for freeCodeCamp Responsive Web Design certification
+These are my projects for freeCodeCamp Responsive Web Design Certification
 
 1. Build a Survey Form
 2. Build a Tribute Page 
