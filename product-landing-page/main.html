@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="The Product - A Landing Page" />
+    <title>The Product</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header id="header">
+      <img id="header-img" src="https://images.pexels.com/photos/430205/pexels-photo-430205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"/>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#list">Features</a>
+        <a class="nav-link" href="#main-product-info">How It Works</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </nav>
+    </header>
+
+    <main>
+
+      <section id="first-product-info">
+        <div id="hero">
+          <p>A Product You Will Definitely Use</p>
+        </div>
+        <section id="customer-form">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <fieldset>
+              <label>
+                <input id="email" type="email" name="email" placeholder="Enter your email" />
+              </label>
+            </fieldset>
+            <input type="submit" id="submit" value="Get Started"/>
+          </form>
+        </section>
+        <ul id="list">
+          <li class="sp-chars">
+            <i class="icon-btc icon-3x"></i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> 
+          </li>
+          <li class="sp-chars">
+            <i class="icon-eur icon-3x"></i>
+            <p>Nullam hendrerit, lacus at aliquet porttitor, est augue fringilla diam, et varius sem enim vel urna.</p>
+          </li>
+          <li class="sp-chars">
+            <i class="icon-jpy icon-3x"></i>
+            <p>Donec pellentesque vulputate dui eget volutpat. Integer vitae urna a sapien consectetur dignissim id eu lectus.</p> 
+          </li>
+          <li class="sp-chars">
+            <i class="icon-usd icon-3x"></i>
+            <p>Ut accumsan purus vitae molestie congue.</p>
+          </li>
+        </ul>
+      </section>
+      
+      <section id="main-product-info">
+        <iframe id="video" src="https://www.youtube.com/embed/Urx8b7jhBXM" allow="fullscreen"></iframe>
+        <div id="pricing">
+          <div class="cat" id="free">
+            <p class="cat-hero">Free</p>
+            <p class="cat-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="cat-price">$600</p>
+            <div class="select-button">
+              <p>SELECT</p>
+            </div>
+          </div>
+          <div class="cat" id="pro">
+            <p class="cat-hero">Pro</p>
+            <p class="cat-desc">Nullam arcu arcu, porta in commodo non, sagittis in mauris.</p>
+            <p class="cat-price">$800</p>
+            <div class="select-button">
+              <p>SELECT</p>
+            </div>
+          </div>
+          <div class="cat" id="enterprise">
+            <p class="cat-hero">Enterprise</p>
+            <p class="cat-desc">Donec id semper turpis. Donec vitae dapibus odio, eu laoreet neque.</p>
+            <p class="cat-price">$999</p>
+            <div class="select-button">
+              <p>SELECT</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="footer">
+        <p>created by Paolo Linaac for freeCodeCamp Responsive Web Design Certification</p>
+      </section>
+
+    </main>
+  </body>
+</html>
