@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <title>Algorand Survey</title>
+    <link rel='stylesheet' href='styles.css'>
+  </head>
+  <body>
+    <header>
+    <h1 id='title'>Algorand Survey Form</h1>
+    <p id='description'>Please fill out this form about your Algorand experience</p>
+    </header>
+    <form id='survey-form'>
+      <fieldset>
+        <label id='name-label'>Enter your name: <input id='name' placeholder='Juan dela Cruz' required /></label>
+        <label id='email-label'>Enter your email: <input id='email' type='email' placeholder='jdc@gmail.com' required/></label>
+        <label id='number-label'>Enter a number: <input type='number' id='number' min=1 max=100 placeholder=1 /></label>
+      </fieldset>
+      <fieldset>
+        <label>Where did you find us?
+          <select id='dropdown'>
+            <option>Facebook</option>
+            <option>Youtube</option>
+            <option>Twitter</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <p>Have you joined Algonauts Discord?</p>
+        <label>Yes<input type='radio' name='class' value='1' /></label>
+        <label>No<input type='radio' name='class' value='0' /></label>
+      </fieldset>
+      <fieldset>
+        <p>Please select your top Algorand projects</p>
+        <label>Yieldly <input type='checkbox' value='yieldly' /></label>
+        <label>Smile Coin <input type='checkbox' value='smilecoin' /></label>
+        <label>Algofi <input type='checkbox' value='algofi' /></label>
+        <label>Folks Finance <input type='checkbox' value='folksfinance' /></label>
+        <label>Alchemon <input type='checkbox' value='alchemon' /></label>
+      </fieldset>
+      <fieldset class='textarea'>
+        <p>Additional comments</p>
+        <label>
+          <textarea rows='5' cols='33'></textarea>
+        </label>
+      </fieldset>
+      <input type='submit' id='submit'/>
+    </form>
+  </body>
+</html>
