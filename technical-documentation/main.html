@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta description="JavaScript Doc" />
+    <title>JavaScript Documentation</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>JavaScript Documentation</header>
+      <div id="nav-link-group">
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
+        <a class="nav-link" href="#Javascript_and_Java">Javascript and Java</a>
+        <a class="nav-link" href="#Hello_World">Hello World</a>
+        <a class="nav-link" href="#Variables">Variables</a>
+        <a class="nav-link" href="#Declaring_Variables">Declaring Variables</a>
+      </div> 
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <p>
+          JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.
+        </p>
+        <p>
+          JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:
+        </p>
+        <p>Applications of Javascript</p>
+        <ul>
+          <li>Web Development</li>
+          <li>Web Applications</li>
+          <li>Others</li>
+        </ul>
+        <p>Sample Code:</p>
+        <code>console.log("Hello World");</code>
+      </section>
+      <section class="main-section" id="What_you_should_already_know">
+        <header>
+          What you should already know
+        </header>
+        <p>
+          A general understanding of the Internet and the World Wide Web (WWW).
+        </p>
+        <p>
+          Good working knowledge of HyperText Markup Language (HTML).
+        </p>
+        <p>Applications of HTML</p>
+        <ul>
+          <li>Structuring web pages</li>
+          <li>Navigating the internet</li>
+          <li>Embedding images and videos</li>
+        </ul>
+        <p>Sample HTML Code (no spaces included):</p>
+        <code> < html > < /html ></code>
+      </section>
+      <section class="main-section" id="Javascript_and_Java">
+        <header>
+          Javascript and Java
+        </header>
+        <p>
+          JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.
+        </p>
+        <p>
+          JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.
+        </p>
+        <p>Applications of Java</p>
+        <ul>
+          <li>Mobile Phones</li>
+          <li>Enterprise Servers</li>
+          <li>Computing Platforms</li>
+        </ul>
+        <code>let myVar = undefined;</code>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header>
+          Hello World
+        </header>
+        <p>
+          To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:
+        </p>
+        <code>
+          function greetMe(yourName) { 
+            alert("Hello " + yourName); 
+          }
+
+          greetMe("World");
+        </code>
+        <p>Purposes of "Hello World"</p>
+        <ul>
+          <li>To test systems</li>
+          <li>For beginners to start learning to code</li>
+        </ul>
+        <p>
+          Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!
+        </p>
+      </section>
+      <section class="main-section" id="Variables">
+        <header>Variables</header>
+        <p>
+          You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+        </p>
+        <p>
+          A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+        </p>
+        <p>Applications of Variables</p>
+        <ul>
+          <li>To store value</li>
+          <li>To have structure and relationships in code</li>
+        </ul>
+        <p>Variables in code:</p>
+        <code>let myNewVariable = 2;</code>
+      </section>
+      <section class="main-section" id="Declaring_Variables">
+        <header>Declaring Variables</header>
+        <p>
+          You can declare a variable in three ways: With the keyword var. For example,
+        </p>
+        <code>
+          var x = 42
+        </code>
+        <p>
+          This syntax can be used to declare both local and global variables. By simply assigning it a value. For example, 
+        </p>
+        <code>
+          x = 42
+        </code>
+        <p>
+          This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant. With the keyword let. For example, 
+        </p>
+        <code>
+          let y = 13
+        </code>
+        <p>
+          This syntax can be used to declare a block scope local variable.
+        </p> 
+      </section>
+    </main>
+  </body>
+</html>
